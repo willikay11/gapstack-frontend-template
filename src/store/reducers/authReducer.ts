@@ -6,7 +6,7 @@ const initialState = {
     user: {},
 };
 
-export default (state = initialState, action) => {
+export default (state = initialState, action: any) => {
     switch (action.type) {
         case IS_USER_SIGNING_IN:
             return {
